@@ -6,7 +6,7 @@
 **/
 var oracledb = require('oracledb');
 var config = require('./config.js');
-var outfile_name = config.outputfile_name
+var outfile_name = 'output_file.html'
 var fs = require('fs');
 var databses_count = config.databases.length;
 

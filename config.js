@@ -2,7 +2,6 @@ module.exports = {
     html: {
         header_text: "Output from multiple DB servers"
     },
-    outputfile_name: "output.html"
     databases: ["DB1","DB2","DB3","DB4","DB11"],
     //databases: ["local_database","local_database2"],
     sql: "SELECT * FROM employee",
